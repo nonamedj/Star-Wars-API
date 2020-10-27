@@ -1,6 +1,4 @@
-SWAPI
-
-Star Wars Api
+SWAPI - Star Wars Api
 
 How to run:
 
