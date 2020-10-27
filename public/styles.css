@@ -1,0 +1,627 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Stardos Stencil', cursive;
+}
+
+
+/************************NAVBAR*****************************/
+#nav-bar {
+    border-radius: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+.sw-logo{
+  width: 30%;
+}
+.navbar-brand {
+  margin-right: 0;
+  text-align: center;
+}
+.navbar-toggler .collapsed{
+  display: flex;
+}
+.nav-link {
+  font-size: 1.2rem;
+}
+.nav-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ui.menu .item {
+  padding: 0 !important;
+  margin: 10px;
+}
+.ui.inverted.menu .item {
+  color:  #999 !important;
+}
+
+.ui.inverted.menu .item:hover {
+  color: white !important;
+}
+/**************************************HOME*******************************************/
+#hero-img {
+   width: 100%;
+   height: auto;
+   position: absolute;
+   top: 65px;
+   left: 0;
+    z-index: -10;
+}
+#home-header {
+    padding-top: 500px;
+}
+.theme-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+.btn-group-lg>.btn, .btn-lg  {
+  font-size: .8rem
+}
+/********Features********/
+.feature-box {
+    text-align: center;
+    padding: 5%;
+  }
+  #features {
+    margin-top: 20%;
+    margin-bottom: 10%;
+    background-color: #fff;
+    position: relative;
+  }
+
+/*******carousel*********/
+
+.d-block {
+  height: 100px;
+  margin: auto;
+}
+.fa-chevron-circle-right,
+.fa-chevron-circle-left {
+    color: #1b1c1d;
+}
+#choose-side {
+  margin-top: 50px;
+  text-align: center;
+}
+#dark-side,
+#light-side {
+  cursor: pointer;
+}
+#choose-side {
+  display: none;
+}
+.dark-light-div {
+  display: none;
+}
+.random-div {
+  margin-top: 10%;
+  text-align: center;
+  color: #1b1c1d;
+}
+.info-container {
+  width: 50%;
+  height: 200px;
+  margin: auto;
+  border: 2px solid rgb(65, 75, 78);
+  margin-bottom: 3%;
+  position: relative;
+}
+#randomCharButton {
+  color: #f1f1f1;
+  padding: 10px;
+  background-color: #111;
+  font-family: Lato, sans-serif;
+  letter-spacing: 2px;
+  width: 250px;
+  border-radius: 0;
+  border-color: #111;
+  position: relative;
+  bottom: 1px;
+}
+/**************************************People-Planets-Starships-Films*******************************************/
+.cardHeader {
+  font-size: 1rem;
+  color: #1b1c1d;
+  margin: 20px;
+  text-align: center;
+}
+.cardContent {
+  font-size: .8rem;
+}
+/************************SEARCH-FIND***************************/
+.search-div {
+  margin-top: 50px;
+  text-align: center;
+}
+.search-input {
+  padding: 5px;
+  margin-right: 5px;
+  border: 1px solid black;
+  border-top-style: none;
+  border-left-style: none;
+  border-right-style: none;
+}
+.clearButton {
+  color: #f1f1f1;
+  padding: 5px;
+  background-color: #111;
+  font-family: Lato, sans-serif;
+  letter-spacing: 1px;
+  width: 100px;
+  border-radius: 0;
+  border-color: #111;
+}
+.search-result-div  {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+/************************prevButton-nextButton***************************/
+#prevButton,
+#nextButton{
+  text-decoration: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 10px;
+  cursor: pointer;
+  user-select: none;
+  border: none;
+}
+#prevButton:hover,
+#nextButton:hover {
+  background-color: #ddd;
+  color: black;
+}
+.previous,
+.next{
+  background-color: #f1f1f1;
+  color: black;
+}
+.round {
+  border-radius: 50%;
+}
+#prev-next-div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.spinner {
+  opacity: 0;
+  animation: fade 0.5s linear 0.5s;
+  animation-fill-mode: forwards;
+  position: absolute;
+  background-color: #ffffff;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/************************SIGN UP **************************/
+#sign-up-section {
+  text-align: center;
+  background-color: #f8f8f8;
+  color: #212529;
+  padding: 30px;
+  margin-top: 100px;
+}
+#sign-up-button {
+background-color: #111;
+text-transform: uppercase;
+font-family: Lato, sans-serif;
+letter-spacing: 2px;
+width: 150px;
+border-radius: 0;
+border-color: #111;
+position: relative;
+bottom: 1px;
+}
+#sign-up-button:hover {
+  opacity: .7;
+}
+#sign-up-section p {
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+#sign-up-input {
+  display: inline-block;
+  width: 30%;
+  border: none;
+  border-radius: 0;
+}
+#sign-up-input {
+  display: block;
+  width: 50%;
+  margin: auto;
+}
+#sign-up-button {
+  width: 50%;
+}
+
+/***************************FOOTER****************************/
+.footer {
+  padding: 20px;
+  background-color: #1b1c1d;
+}
+.footer-link {
+  color: #999;
+  text-transform: uppercase;
+  font-family: Lato, sans-serif;
+  font-size: .8rem;
+  font-weight: 700;
+  padding: .9rem;
+  display: flexbox;
+}
+.footer-link:hover {
+  color: white;
+  text-decoration: none;
+}
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  padding: 1rem;
+  letter-spacing: .125rem;
+}
+.follow-us {
+  color: #999;
+  text-align: center;
+}
+.footer-social-icons{
+  display: flex;
+  justify-content: center;
+}
+.social-icon {
+  display: flex;
+  justify-content: center;
+  color: #999;
+  font-size: 1.5rem;
+  padding: 10px;
+  width: 45px;
+  margin: 5px;
+}
+.social-icon:hover {
+  color: white;
+  text-decoration: none;
+}
+.footer-links {
+      display: flex;
+      flex-direction: column;
+}
+
+/************footer-link************/
+.return-iframe {
+ width: 100%;
+ height: 500px;
+}
+
+/*******************************MEDIA QUERY 576px*******************************/
+@media (min-width:576px) {
+  .sw-logo{
+    width: 30%;
+    display: flex;
+  }
+  .d-block {
+    height: 150px;
+  }
+  #sign-up-input {
+    display: inline-block;
+    width: 40%;
+  }
+  #sign-up-button {
+    width: 150px;
+  }
+  .theme-div {
+    margin-top: 35%;
+  }
+}
+/*******************************MEDIA QUERY 768px*******************************/
+@media (min-width:768px) {
+  .sw-logo{
+    width: 20%;
+  }
+  .footer-links {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    text-align: center;
+  }
+  .btn-group-lg>.btn, .btn-lg  {
+    font-size: 1.2rem
+  }
+  .cardHeader {
+    font-size: 1.5rem;
+  }
+  .cardContent {
+    font-size: 1rem;
+  }
+  #choose-side {
+    display: none;
+  }
+  .dark-light-div {
+    display: none;
+  }
+}
+/*******************************MEDIA QUERY 992px*******************************/
+@media (min-width:992px) {
+  .sw-logo{
+    margin-right: 300px;
+    width: 15%;
+  }
+  #sign-up-input {
+    width: 20%;
+  }
+  .d-block {
+    height: 200px;
+  }
+  .dark-light-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  #choose-side {
+    display: block;
+  }
+}
+/*******************************MEDIA QUERY 1200px*******************************/
+@media (min-width:1200px) {
+  .d-block {
+    height: 300px;
+  }
+  
+}
+
+
+
+/**************************************Privacy**************************************/
+.star-wars-intro {
+  background: url("img/stars-bg.jpg") center center;
+  width: 100%;
+  height: 100%;
+  font-family: "Droid Sans", arial, verdana, sans-serif;
+  font-weight: 700;
+  color: #EBD71C;
+  background-color: #000;
+  overflow: hidden;
+  position: relative;
+}
+.star-wars-intro p.intro-text {
+  position: relative;
+  max-width: 16em;
+  font-size: 200%;
+  font-weight: 400;
+  margin: 20% auto;
+  color: #4ee;
+  opacity: 0;
+  z-index: 1;
+  text-align: center;
+  -webkit-animation: intro 2s ease-out;
+  -moz-animation: intro 2s ease-out;
+  -ms-animation: intro 2s ease-out;
+  -o-animation: intro 2s ease-out;
+  animation: intro 2s ease-out;
+}
+.star-wars-intro .main-content{
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 3;
+  width: 98%;
+  height: 50em;
+  bottom: 0;
+  font-size: 80px;
+  font-weight: bold;
+  text-align: justify;
+  overflow: hidden;
+  transform-origin: 50% 100%;
+  transform: perspective(350px) rotateX(25deg);
+}
+.star-wars-intro .main-content:after {
+  position: absolute;
+  content: ' ';
+  top: 0;
+  bottom: 60%;
+  background-image: linear-gradient(top, rgba(0,0,0,1) 0%, transparent 100%);
+  pointer-events: none;
+}
+.star-wars-intro .space-button {
+  color: #EBD71C;
+  border: 12px solid #EBD71C;
+  padding: 20px;
+  background: transparent;
+  text-decoration: none;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+.star-wars-intro .space-button:hover {
+  background-color: #D2BE03;
+  border-color: #D2BE03;
+  color: black;
+}
+.star-wars-intro .space-button:active,
+.star-wars-intro .space-button:focus {
+  background-color: #B8A40A;
+  border-color: #B8A40A;
+  color: black;
+}
+.star-wars-intro .title-content {
+  position: absolute;
+  top: 100%;
+  animation: scroll 120s linear 4s forwards;
+}
+.star-wars-intro .title-content > .content-header {
+  text-align: center;
+}
+/* Main Image Styles */
+.star-wars-intro .main-logo {
+  position: absolute;
+  width: 2.6em;
+  left: 50%;
+  top: 20vh;
+  font-size: 10em;
+  text-align: center;
+  margin-left: -1.3em;
+  line-height: 0.8em;
+  letter-spacing: -0.05em;
+  color: #000;
+  text-shadow: -2px -2px 0 #EBD71C, 2px -2px 0 #EBD71C, -2px 2px 0 #EBD71C, 2px 2px 0 #EBD71C;
+  opacity: 0;
+  z-index: 1;
+  -webkit-animation: logo 5s ease-out 2.5s;
+  -moz-animation: logo 5s ease-out 2.5s;
+  -ms-animation: logo 5s ease-out 2.5s;
+  -o-animation: logo 5s ease-out 2.5s;
+  animation: logo 5s ease-out 2.5s;
+}
+.star-wars-intro .main-logo > img {
+  max-width: 100%;
+}
+@-webkit-keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-moz-keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-ms-keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-o-keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@keyframes intro {
+  0% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { opacity: 0; }
+}
+@-webkit-keyframes logo {
+  0% { -webkit-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -webkit-transform: scale(0.1); opacity: 0; }
+}
+@-moz-keyframes logo {
+  0% { -moz-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -moz-transform: scale(0.1); opacity: 0; }
+}
+@-ms-keyframes logo {
+  0% { -ms-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -ms-transform: scale(0.1); opacity: 0; }
+}
+@-o-keyframes logo {
+  0% { -o-transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { -o-transform: scale(0.1); opacity: 0; }
+}
+@keyframes logo {
+  0% { transform: scale(1); opacity: 1; }
+  50% { opacity: 1; }
+  100% { transform: scale(0.1); opacity: 0; }
+}
+@keyframes scroll {
+  0% { top: 100%; }
+  100% { top: -170%; }
+}
+@media screen and (max-width: 720px) {
+  .star-wars-intro .main-content {
+    font-size: 35px;
+  }
+  .star-wars-intro .title-content {
+    position: absolute;
+    top: 100%;
+    animation: scroll 100s linear 4s forwards;
+  }
+}
+
+/*********************CHOOSE-SIDE*************************/
+
+.box {
+  position: relative;
+  width: 390px;
+  height: 440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #060c21;
+  transition: 0.5s;
+}
+.box .imgBox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+.box .imgBox img {
+  height: 100%;
+  opacity: 0.3;
+  transition: 0.5s;
+}
+.box:hover .imgBox img {
+  opacity: 1;
+}
+.box::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -1;
+}
+.box::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: #fff;
+  z-index: -2;
+  filter: blur(40px);
+}
+.box::before,
+.box::after {
+  background: linear-gradient(0deg,#ff0000,#000000);
+}
+.box:nth-child(2)::before,
+.box:nth-child(2)::after {
+    background: linear-gradient(180deg,#0000FF,#000000);
+}
